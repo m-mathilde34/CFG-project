@@ -1,0 +1,286 @@
+/* Navigation Bar To the Side */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: #797978;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #DFDEDC;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .activeMenu {
+    background-color: #618574;
+  }
+  
+  .sidenav a:hover {
+    color: #000;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+/* Navigation */
+
+.navigation-menu1 {
+  position: relative;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  color: #3E3E3D;
+  filter: grayscale(60%);
+ }
+ 
+ 
+ .navigation-menu2 {
+  display: flex;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #3E3E3D;
+  filter: grayscale(60%);
+ }
+ 
+ 
+ .navigation-item a:hover {
+    color:#618574;
+    background-color: #C7C6C4;
+    border-radius: 20%;
+    border-width: 5px, 5px, 5px, 5px;
+ }
+ 
+ 
+/* Home Page Navigation With Circle Images */
+ 
+ .circular-portrait { 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+ } 
+     
+.circular-portrait img { 
+    width: 100%;
+    height: auto;
+ }
+ 
+ .circular-landscape { 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+ }
+  
+ .circular-landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px; 
+ }
+
+
+/* General */
+
+  header {
+   background-color: #C7C6C4;
+   font-family: 'Dancing Script', cursive;
+ }
+
+ .myheader {
+   display: flex;
+   justify-content: center;
+   padding: 20px 20px 20px 20px
+ }
+
+
+ h1 {
+    text-align: center;
+    color: #618574;
+    font-family: 'Dancing Script', cursive;
+    size: 50px;
+ }
+
+
+ body {
+    background-color: #DFDEDC;
+    font-size: 16px;
+ }
+
+ a {
+   color:#58a07f
+ }
+
+
+ #cat-silhouette {
+   width: 100px;
+   padding-top: 30px;
+ }
+
+ .container2 {
+   display: flex;
+   justify-content: center;
+ }
+
+ .container {
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ #sitting-cat {
+   width: 100px;
+   padding-right: 20px;
+   padding-top: 50px;
+ }
+
+
+ /* Carousel */
+
+ #carouselExampleControls {
+   position: relative;
+   width: 400px;
+   filter: grayscale(50%);
+   padding-top: 30px;
+   padding-bottom: 20px;
+ }
+
+ .presentation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: #3E3E3D;
+  margin: 50px;
+}
+
+.charlie-presentation {
+  width: 700px;
+  justify-items: center;
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+/* footer */
+
+footer {
+  display: flex;
+  border-top: solid #C7C6C4;
+  background-color: #DFDEDC;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  overflow: hidden;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  border: 1.1px solid #C7C6C4;
+  border-radius: 50%;
+  color: #3E3E3D;
+  padding-top: 15px;
+  padding-left: 13px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+}
+
+.socials a i{
+  font-size: 2em;
+  width: 30px;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: #618574;
+}
+
+.nav-right {
+  display: block;
+}
+
+.nav-right a {
+  margin: 15px;
+}
+
+small {
+  padding: 10px 0px 5px 5px;
+}
+
+
+/* Contact Page */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  width: 400px;
+  text-align: center;
+  justify-items: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+#contact-picture {
+  width: 300PX;
+  height: auto;
+  filter: grayscale(50%);
+  border: 2px solid #3E3E3D;
+  padding: 10px;
+  margin: 30px;
+}
+
+.send-button {
+  width: 100px;
+  height: 50px;
+  border: solid #C7C6C4;
+  color: #58a07f;
+  border-radius: 30px;
+}
+
+
+

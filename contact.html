@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome To Charlie's Little World!</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/aa17dfb780.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./index.html" class="">Home</a>
+                <a href="#" onclick="showAlert()">Milestones</a>
+                <a href="#" onclick="showAlert()">Gallerie</a>
+                <a href="#" onclick="showAlert()">My Humans</a>
+                <a href="#" onclick="showAlert()">Stories</a>
+            </div>          
+            <span style="font-size:30px; cursor:pointer; padding-left: 8px;" onclick="openNav()"><i class="fa-solid fa-bars"></i> Menu</span>
+            
+            <div class="myheader"> <img src="./images/logo.png" alt="logo"> </div>
+        </header>
+
+        <div class="flex-container">
+            <div class="flex-item flex-item-1">
+                <img src="./images/CHARLIE-CONTACT.jpg" alt="charlie with glasses" id="contact-picture">
+                <h1><i>Ask me anything!</i></h1>
+            </div>
+            <div class="flex-item flex-item-2">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                 <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" name="submit" value="Submit Message" class="send-button" onclick="messageSent()"><b>Send</b> <i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+
+        <footer>
+
+            <!-- centre links -->
+            <div class="nav-left">
+              <ul class="socials">
+              <li><a href="#" onclick="showAlert()"><i class="fa-brands fa-instagram"> </i></a></li>
+              <li><a href="#" onclick="showAlert()"><i class="fa-brands fa-square-facebook"> </i></a></li>
+              <li><a href="#" onclick="showAlert()"><i class="fa-brands fa-snapchat"> </i></a></li>
+              <li><a href=”#” onclick="showAlert()"><i class="fa-brands fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <!-- Right-aligned links -->
+            <div class="nav-right">
+              <h3>Further Links</h3>
+              <a href="./contact.html">CONTACT</a>
+              <a href="#" onclick="showAlert()">ABOUT</a>
+            </div>
+
+            
+        </footer>
+        <small>Code First Girls Assignment 2023</small>
+        <script src="script.js"></script>
+    </body>
+</html>
